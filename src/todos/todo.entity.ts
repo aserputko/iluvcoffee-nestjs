@@ -7,4 +7,7 @@ export class Todo {
 
   @Column()
   name: string;
+
+  @Column({ default: false })
+  toggle: boolean;
 }
