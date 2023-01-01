@@ -13,7 +13,6 @@ import { CoffeesModule } from './coffees/coffees.module';
       password: 'iluvcoffee_pass123',
       database: 'iluvcoffee',
       autoLoadEntities: true,
-      synchronize: true, // your entities will be synced with the database(recommended: disable in prod)
     }),
   ],
   controllers: [],
